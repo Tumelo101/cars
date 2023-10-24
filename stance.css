@@ -1,0 +1,19 @@
+.description{
+
+    max-width: 800px;
+    margin: 40px auto 2px;
+}
+.description-container .floating-image{
+    max-width: 2px;
+    max-height: 5px;
+}
+.description-container .floating-image.right{
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.description-container .floating-image.left{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}

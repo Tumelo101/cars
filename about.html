@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Link File CSS -->
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <i class="fa fa-bars" aria-hidden="true" id="menu-icon"></i>
+              <div class="logo">
+                    <img src="images/logo.jpg">
+                </div>
+            <ul class="navbar">
+            <li><a href="service.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="stance.html">Stance</a></li>
+            <li><a href="contant.html">Comparism</a></li>
+            <li><a href="index.html">Store</a></li>
+            <li><a href="call me.html">Contact</a></li>
+            </ul>
+            <i class="fa fa-search" aria-hidden="true" id="search-icon" style="margin:0% 0% 0% 20%;"></i>
+            <div class="search-box container">
+                <input type="search" name="" id="" placeholder="search here...">
+            </div>
+        </div>
+       </header>
+    
+    <div class="hero">
+
+        <div class="text">
+            <h4>Why i love cars</h4>
+            <p> Cars go back in ancient times/history which has been an amazing thing that has ever happend to human kind <br>To some a just transport to me a form of Therapy everyone should<br> have something they can turn to when they're down no phone
+                no kids <br>no interruotion just me and my metal shell it gives me time to think and<br>a peace of mind. the cars we drive says a lot about us  i will rather
+                <br>spend my money on something that i love not on drugs l rather smoke<br> my tires not drugs. a car will never wake up tommorow and tell you<br> it doesn't love you anymore.
+                if one day speed kills me people should<br> not cry becouse i was smiling by that moment.
+            </p>
+            <a href="#" class="btn">book a test ride</a>
+        </div>
+    </div>
+    <div class="outer-footer">
+        copyright &copy;web coding pro.made by Tumelo
+    </div>
+    <script>
+        let heroBg = document.querySelector('.hero');
+
+        setInterval(() => {
+            heroBg.style.backgroundImage = "url(images/bg-light.jpg)"
+            
+            setTimeout(() => {
+                heroBg.style.backgroundImage = "url(images/bg.jpg)"
+            },1000 );
+        }, 2200);
+    </script>
+</body>
